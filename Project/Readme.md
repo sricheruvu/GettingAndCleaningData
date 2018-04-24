@@ -26,6 +26,6 @@ You should create one R script called run_analysis.R that does the following.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ### Additional Information - CodeBook containing the variables, definitions and transformations
-You can find additional information about the variables, data and transformations in the CodeBook.md file.
+You can find additional information about the variables, data and transformations in the file- [CodeBook.md] (https://github.com/sricheruvu/GettingAndCleaningData/blob/master/Project/CodeBook.md) 
 
 ### Thank You
