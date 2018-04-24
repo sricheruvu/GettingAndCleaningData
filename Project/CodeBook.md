@@ -25,11 +25,11 @@ activityID       | Activity ID
 dt_features      | Contains all the features from the features.txt file
 dt_activityType  | Contains all the activities from the activity_labels.txt file. The activities are: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
 dt_subjectTrain  | Contains all the training data done by each subject from the file subject_train.txt
-dt_xTrain        | Contains all the features from the x_train.txt file
-dt_yTrain        | Contains all the features from the y_train.txt file
-subjectTest      | Contains the data from subject_test.txt file
-xTest            | Contains the data from x_test.txt file
-yTest            | Contains the data from y_test.txt file
+dt_xTrain        | Contains the training data from the x_train.txt file
+dt_yTrain        | Contains the training data from the y_train.txt file
+subjectTest      | Contains the testing data from subject_test.txt file
+xTest            | Contains the testing data from x_test.txt file
+yTest            | Contains the testing data from y_test.txt file
 
 ### Attribute Information
 For each record in the dataset it is provided: 
