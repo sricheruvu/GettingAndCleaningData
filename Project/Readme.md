@@ -1,10 +1,10 @@
 
 ## Getting and Cleaning Data Project
-Sriram Cheruvu
+**Sriram Cheruvu**
 
 Repository for the submission of the course project for the Johns Hopkins University (JHU) Getting and Cleaning Data course.
 
-### Project: Human Activity Recognition Using Smartphones
+### Project: Human Activity Recognition Using Smartphones (Creating Tidy Data)
 
 ### Overview
 This project serves to demonstrate the collection and cleaning of a tidy data set that can be used for subsequent
