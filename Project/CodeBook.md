@@ -18,21 +18,23 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Variable list and descriptions
 ------------------------------
 
-Variable name    | Description
------------------|------------
-subjectID        | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
-activityID       | Activity ID
-dt_features      | Contains all the features from the features.txt file
-dt_activityType  | Contains all the activities from the activity_labels.txt file. The activities are: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
-dt_subjectTrain  | Contains all the training data done by each subject from the file subject_train.txt
-dt_xTrain        | Contains the training data from the x_train.txt file
-dt_yTrain        | Contains the training data from the y_train.txt file
-subjectTest      | Contains the testing data from subject_test.txt file
-xTest            | Contains the testing data from x_test.txt file
-yTest            | Contains the testing data from y_test.txt file
+Variable name           | Description
+------------------------|------------
+subjectID               | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+activityID              | Activity ID
+dt_features             | Contains all the features from the features.txt file
+dt_activityType         | Contains all the activities from the activity_labels.txt file. The activities are: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying
+dt_subjectTrain         | Contains all the training data done by each subject from the file subject_train.txt
+dt_xTrain               | Contains the training data from the x_train.txt file
+dt_yTrain               | Contains the training data from the y_train.txt file
+subjectTest             | Contains the testing data from subject_test.txt file
+xTest                   | Contains the testing data from x_test.txt file
+yTest                   | Contains the testing data from y_test.txt file
+finalDataNoActivityType | A new table, finalDataNoActivityType without the activityType column
+tidyData                | Includes just the mean of each variable for each activity and each subject. Includes descriptive acitvity names also.
 
 ### Attribute Information
-For each record in the dataset it is provided: 
+For each record in the dataset there is following info: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
